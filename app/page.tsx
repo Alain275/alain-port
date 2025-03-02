@@ -7,6 +7,7 @@ import Education from "./components/Education"
 import Contact from "./components/Contact"
 import FloatingNav from "./components/floating-nav"
 import Projects from "./components/Projects"
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Education />
       <Projects />
       <Contact />
+      <Footer />
     </main>
   )
 }

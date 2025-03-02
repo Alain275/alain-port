@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Mail, MapPin, Phone, Send, Loader2 } from "lucide-react"
+import { Send, Loader2 } from "lucide-react"
 import Image from "next/image"
 
 export default function Contact() {
@@ -29,42 +29,11 @@ export default function Contact() {
         >
           Get in Touch
         </motion.h2>
-        <div className="flex flex-col lg:flex-row gap-12">
+        <div className="flex justify-center">
           <motion.div
-            className="lg:w-1/3"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
-              <h3 className="text-2xl font-semibold mb-6 dark:text-white">Contact Information</h3>
-              <div className="space-y-6">
-                <a
-                  href="alainshema275@gmail.com"
-                  className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
-                >
-                  <Mail className="w-6 h-6 mr-3 text-blue-600" />
-                  alainshema275@gmail.com
-                </a>
-                <a
-                  href="tel:+923055356766"
-                  className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
-                >
-                  <Phone className="w-6 h-6 mr-3 text-blue-600" />
-                  +250780185432
-                </a>
-                <div className="flex items-center text-gray-600 dark:text-gray-300">
-                  <MapPin className="w-6 h-6 mr-3 text-blue-600" />
-                  Kigali RWANDA
-                </div>
-              </div>
-            </div>
-          </motion.div>
-          <motion.div
-            className="lg:w-2/3"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            className="w-full max-w-3xl"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >

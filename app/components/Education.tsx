@@ -9,7 +9,7 @@ export default function Education() {
   const education = [
     {
       degree: "Bachelor's Degree in Computer Science with an Option of Information Security",
-      institution: "RWANDA NATIONAL POLICE COLLEGE",
+      institution: "UNIVERSITY OF RWANDA",
       period: "2022 - PRESENT",
       achievements: [
         "remaining one year before Graduated",

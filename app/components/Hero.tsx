@@ -1,7 +1,9 @@
 "use client"
 
 import Image from "next/image"
-import { GitlabIcon as GitHub, Linkedin, Mail, ArrowDown } from "lucide-react"
+import { GitlabIcon as GitHub, Linkedin, Mail, ArrowDown, } from "lucide-react"
+import { Instagram } from "lucide-react";
+
 import { motion } from "framer-motion"
 import alainImage from "./alain.JPEG"
 
@@ -58,26 +60,29 @@ export default function Hero() {
             </p>
             <div className="flex justify-center lg:justify-start space-x-4 mb-8">
               <a
-                href="#"
+                href="https://github.com/Alain275"
                 className="p-3 rounded-full bg-white/80 hover:bg-white dark:bg-gray-800/80 dark:hover:bg-gray-800 transition-colors duration-300 shadow-lg hover:shadow-xl"
                 aria-label="GitHub Profile"
               >
                 <GitHub className="w-6 h-6 text-gray-700 dark:text-gray-300" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/shema-alain-9a0074320/"
                 className="p-3 rounded-full bg-white/80 hover:bg-white dark:bg-gray-800/80 dark:hover:bg-gray-800 transition-colors duration-300 shadow-lg hover:shadow-xl"
                 aria-label="LinkedIn Profile"
               >
                 <Linkedin className="w-6 h-6 text-gray-700 dark:text-gray-300" />
               </a>
               <a
-                href="mailto:musmanzafar53@gmail.com"
+                href="https://www.instagram.com/a.l.a.i.n_s.h.e.m.a/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-3 rounded-full bg-white/80 hover:bg-white dark:bg-gray-800/80 dark:hover:bg-gray-800 transition-colors duration-300 shadow-lg hover:shadow-xl"
-                aria-label="Email Contact"
+                aria-label="Instagram Profile"
               >
-                <Mail className="w-6 h-6 text-gray-700 dark:text-gray-300" />
+                <Instagram className="w-6 h-6 text-gray-700 dark:text-gray-300" />
               </a>
+
             </div>
             <motion.button
               onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}

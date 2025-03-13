@@ -5,7 +5,7 @@ import { GitlabIcon as GitHub, Linkedin, Mail, ArrowDown, } from "lucide-react"
 import { Instagram } from "lucide-react";
 
 import { motion } from "framer-motion"
-import alainImage from "./alain.JPEG"
+import alainImage from "./alain.JPEG" 
 
 const CodePattern = () => (
   <svg className="absolute inset-0 w-full h-full opacity-5" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +16,7 @@ const CodePattern = () => (
       width="50"
       height="50"
       patternUnits="userSpaceOnUse"
-      patternContentUnits="userSpaceOnUse"
+      patternContentUnits="userSpaceOnUse"   
     >
       <circle id="pattern-circle" cx="10" cy="10" r="1.6257413380501518" fill="#000"></circle>
     </pattern>

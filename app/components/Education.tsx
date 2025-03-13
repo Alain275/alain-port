@@ -9,7 +9,7 @@ export default function Education() {
   const education = [
     {
       degree: "Bachelor's Degree in Computer Science with an Option of Information Security",
-      institution: "UNIVERSITY OF RWANDA",
+      institution: "UNIVERSITY OF RWANDA", 
       period: "2022 - PRESENT",
       achievements: [
         "remaining one year before Graduated",
@@ -19,7 +19,7 @@ export default function Education() {
     },
   ]
 
-  return (
+  return (    
     <section
       id="education"
       className="py-20 bg-gradient-to-br from-indigo-50 to-purple-100 dark:from-gray-900 dark:to-purple-900 transition-colors duration-300 overflow-hidden relative"
